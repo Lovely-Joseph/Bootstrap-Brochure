@@ -1,0 +1,59 @@
+.banner{
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h2{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.section2 p::before{
+    content: '[ ';
+    color: darkred;
+}
+.section2 p::after{
+    content: ' ]';
+    color: darkred;
+}
+.section2 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.margin-left{
+    margin-left: -100px;
+}
+.module-bg{
+    background-image: url('../images/pic2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.interview{
+    background-image: url('../images/pic1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.interview div{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.interview1{
+    background-image: url('../images/pic3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.interview1 div{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vh-60{
+    height: 60vh;
+}
+@media screen and (max-width:576px){
+    .margin-left{
+        margin-left: 0px;
+    }
+    .vh-60{
+        height: 120vh;
+    }
+    
+    
+}
